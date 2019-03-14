@@ -1,0 +1,80 @@
+.mdl-layout .mdl-layout__header .mdl-layout__header-row{
+	 padding-bottom: 50px;
+}
+
+.mdl-layout .mdl-layout__header .mdl-layout__header-row .mdl-layout-title {
+	margin-top: 46px;
+}
+
+.mdl-layout .mdl-layout__header .mdl-layout__tab-bar{
+	background: #428484;
+	color: white;
+}
+
+.mdl-layout .mdl-layout__header{
+	background-color:  #428484;
+}
+
+.mdl-layout .mdl-layout__content .mdl-layout__tab-panel .page-content .mdl-layout__content1{
+	margin-top: 60px;
+	margin-left: 60px;
+}
+
+.mdl-layout .mdl-layout__header .mdl-layout__tab-bar p{
+	margin-left: 840px;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.circle-icon {
+    background: #9259a1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+    line-height: 100px;
+    vertical-align: middle;
+	z-index: 1;
+}
+.center{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+.mdl-layout__content .mdl-layout__tab-panel .page-content  a > i {
+	color: #346969;
+	margin: 10px;
+}
+
+.mdl-layout__content .mdl-layout__tab-panel .page-content  a > i:hover {
+	color: white;
+	margin: 10px;
+}
+
+.mdl-layout__content .mdl-layout__tab-panel .page-content{
+	margin: 4px;
+	text-align: center;
+}
+
+.mdl-layout__content .mdl-layout__tab-panel .page-content .cons{
+	margin-left: 230px;
+}
+
+td{
+	width: 90px;
+}
+
+.stats{
+	text-align: center;
+}
+
+.mdl-layout__content .mdl-layout__tab-panel .page-content-two{
+	margin-top: 50px;
+}
+.obj-color{
+	color: #9259a1;
+}
+.bgbutton{
+	background-color: #9259a1;
+}

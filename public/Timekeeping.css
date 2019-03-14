@@ -1,0 +1,301 @@
+body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.demo-layout .mdl-layout__header{
+	color: white;
+	background-color: #9259a1;
+	width: 100%;
+
+}
+.demo-layout .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+	 padding-top: 9px;
+	color: white;
+}
+
+.demo-layout .mdl-navigation .mdl-textfield .mdl-textfield__expandable-holder{
+	color: white;
+}
+
+.demo-layout .mdl-navigation .mdl-textfield{
+	margin-top: 8px;
+	margin-right: 30px;
+}
+
+.mdl-layout__drawer .mdl-layout-title {
+	padding: 0px;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link .material-icons{
+	color:#9259a1;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.mdl-layout__drawer .mdl-navigation > a:hover{
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #9259a1;
+}
+
+
+.demo-card-event.mdl-card {
+  width: 356px;
+  height: 256px;
+  background: #9259a1;
+}
+.demo-card-event > .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.demo-card-event > .mdl-card__title {
+  align-items: flex-start;
+}
+.demo-card-event > .mdl-card__title > h4 {
+  margin-top: 0;
+}
+.demo-card-event > .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
+.demo-card-event > .mdl-card__title,
+.demo-card-event > .mdl-card__actions,
+.demo-card-event > .mdl-card__actions > .mdl-button {
+  color: #fff;
+}
+
+.demo-card-event .mdl-card__actions > h4 {
+	text-decoration: none;
+}
+
+
+/*LOGIN*/
+
+.login {
+	-moz-box-shadow: 0 0 6px #888;
+	-webkit-box-shadow: 0 0 6px#888;
+	box-shadow: 0 0 6px #888;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 80px;
+    width: 28em
+}
+
+.mdl-navigation .mdl-js-ripple-effect{
+	margin-left: 5px;
+}
+
+.login form{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.android-layout{
+	text-decoration: none !important;
+}
+
+.android-con{
+	margin-bottom: 10px;
+	text-decoration: none !important;
+	text-align: center;
+	display: block;
+}
+
+.logo{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 28px;
+	margin-top: 28px;
+}
+
+/*TABLE*/
+
+
+/*RECORD*/
+.fafacon{
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+.fafacon .gii a{
+	color: #9259a1;/*4D9999*/
+	padding: 5px;
+	margin: 7px;
+}
+
+.fafacon .gii a:hover{
+	margin-right: 5px;
+	text-decoration: none !important;
+	color: #458989;
+	border-bottom: 3px solid #458989;
+}
+
+/*TIME KEEPING MODULE*/
+
+.demo-layout .mdl-layout__drawer .mdl-layout-title{
+	text-align: center;
+	margin-top: 20px;
+} 
+.mdl-layout__drawer .mdl-navigation > a{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.timekeeping-card-square.mdl-card {
+  margin-top: 60px;
+  width: 270px;
+  height: 190px;
+}
+.timekeeping-card-square > .mdl-card__title {
+  color: #fff;
+  background: url('user.png') top right 15% no-repeat #adabae;
+}
+
+.profile .timekeeping-card-square .mdl-card__actions a:hover{
+	text-decoration: none;
+	border-bottom: 3px solid #cf84d4;
+}
+
+.con{
+	margin-top: 60px;
+}
+
+.con .demo-card-event .mdl-card__actions a{
+	color: white;
+	margin-left: 10px;
+}
+
+.con .demo-card-event .mdl-card__actions a:hover{
+	text-decoration: none !important;
+	border-bottom: 3px solid #fff;
+}
+
+.mods{
+	padding-bottom: 200px;
+}
+
+.mods .mbody a {
+	margin-right: 50px;
+	margin-left: 120px;
+	color: #4D9999;
+}
+
+.mods .mbody a:hover{
+	text-decoration: none !important;
+	color: #458989;
+	border-bottom: 4px solid #458989;
+	padding: 10px;
+}
+
+/*Employeeview*/
+
+.mdl-layout__header__em {
+  background: url('conference	.jpg') center / cover;
+  height: 250px;
+}
+
+.mdl-layout__content ul > li:hover{
+	color: white;
+	border-bottom: 3px solid white;
+}
+
+.mdl-layout__content ul {
+	color: white;
+	text-align: center;
+	background-color: #458989;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:0px;
+	font-size: 24px;
+	font-family:Bookshelf Symbol 7;
+}
+
+.mdl-layout__content .content__ul li {
+    display: inline;
+	padding: 15px;
+}
+
+.mdl-layout__content .content__ul > li a {
+	color: white;
+	margin: 15px;
+}
+.demo-layout-transparent .mdl-layout__header__em .mdl-navigation button {
+	color: white;
+}
+
+.demo-layout-transparent .mdl-layout__header__em .mdl-navigation ul {
+	color: white;
+}
+.demo-layout-transparent .mdl-layout__header__em .mdl-layout-title {
+	color: white;
+}
+
+.demo-layout-transparent .mdl-layout__header__em .mdl-layout__header-row{
+	margin: none;
+	padding: none;
+}
+
+.demo-layout-transparent .mdl-layout__drawer-button {
+	padding-top: 10px;
+	color:white;
+}
+
+.mdl-layout__sec{
+	position: absolute;
+	left: 450px;
+	top: 430px;
+}
+
+.demo-layout-transparent .mdl-layout__drawer .mdl-layout-title{
+	text-align: center;
+	margin-top: 20px;
+} 
+
+.emp_status{
+	text-align: center;
+	margin-top: 80px;
+}
+
+.mdl-layout__content .emp_status .colums h4 a: hover{
+	text-decoration: none;
+	color: white;
+	border-bottom: 3px solid black;
+}
+
+.mdl-layout__content .content_em{
+	padding-top: 60px;
+}
+
+..mdl-layout__content .clums{
+	margin-top: 30px;
+}
+
+/*RECORD MODULE*/
+.bs-example{
+	margin: 100px;
+	margin-top: 30px;
+}
+.intenthead{
+	margin-left:100px;
+	margin-top: 50px;
+}
+
+.intentheadh2{
+	margin-left: 100px;
+}
+
+.centerheader{
+	text-align: center;
+}
+.pb-imgsize{
+	width:10%;
+	height:5%;
+}

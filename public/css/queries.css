@@ -1,0 +1,101 @@
+@media screen and (max-width:875px) {
+	.nav-toggle {
+		visibility: visible;
+	}
+	header {
+		height: 100px;
+	}
+	header .logo {
+		position: absolute;
+		left: 35%;
+		
+	}
+	header .header-nav {
+		top: 100%;
+		left: 0;
+		right: 0;
+		z-index: 99999;
+		background-color: #B71C1C;
+		visibility: hidden;
+		opacity: 0;
+	}
+	
+	header ul.doctors-nav  li{
+		display: block;
+		padding: 10px 10px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:555px) {
+	header .logo {
+		position: absolute;
+		left: 25%;
+		
+	}
+}
+
+@media screen and (max-width: 475px){
+    header .logo{
+        position: absolute;
+        left: 95px;
+    } 
+    
+}
+
+@media screen and (max-width: 430px){
+    
+    header .logo{
+        position: absolute;
+        left: 70px;
+    }
+}
+
+@media screen and (max-width: 401px){
+    
+    header .logo{
+        position: absolute;
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 383px){
+    
+    header .logo{
+        position: absolute;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 355px){
+    
+    header .logo{
+        position: absolute;
+        left: 20px;
+    }
+}
+@media screen and (max-width: 340px){
+    
+    header .logo{
+        position: absolute;
+        left: 10px;
+    }
+}
+@media screen and (max-width: 875px){
+    
+    .container{
+        position: absolute;
+		padding-top: 400px;
+        left: 10px;
+    }
+}
+
+
+@media screen and (max-width: 855px){
+    
+    .container{
+        position: absolute;
+		padding-top: 400px;
+        left: 10px;
+    }
+}

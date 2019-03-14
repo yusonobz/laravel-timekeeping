@@ -1,0 +1,137 @@
+/*.Login_Logo{
+margin-left: 60pt;
+}*/
+body{
+	background-image:url('bg.jpg'); 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+.LoginBtn{
+	background-color:#9259a1;color:white;font-family:Arial;font-size:14pt;
+	width:120pt;
+
+	border-radius: 0pt;
+
+}
+.LoginBtn:hover{
+	background-color:gray;color:white;font-family:Arial;font-size:14pt;
+		width:120pt;
+	border-radius: 0pt;
+}
+.nav{
+border: none;
+}
+.nav li{
+	font-size: 16px;
+
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+/*#c1c1c0*/
+.TbHeader{
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	font-weight: normal;
+	
+}
+.circle-icon {
+    background: #9259a1;
+    width: 60pt;
+    height: 60pt;
+    border-radius: 50%;
+    text-align:center;
+    color: #ffffff;
+    line-height: 60pt;
+    vertical-align: top;
+	z-index: 1;
+	margin-left:10pt;
+}
+.img-circle{
+border-style:solid;
+border-width:4pt;
+border-color:#4d4d33;
+}
+#demo-menu-lower-left{
+	    border-radius: 60%;
+margin:0pt;
+padding:0pt;
+border-width: 0pt;
+}
+
+button{
+	outline:none;
+	background-color:#9259a1;color:white;font-family:Arial;
+
+
+	border-radius: 0pt;
+}
+button:hover{
+	background-color:gray;color:white;font-family:Arial;
+	
+	border-radius: 0pt;
+}
+.menuIcon{
+    background: #9259a1;
+    width: 30pt;
+    height: 30pt;
+    border-radius: 50%;
+    text-align:center;
+    color: #ffffff;
+    line-height: 30pt;
+    vertical-align: top;
+	z-index: 1;
+	margin-left:10pt;
+	vertical-align: middle;
+}
+ul{
+	display: inline-block;
+}
+a:focus{
+	outline: none;
+	outline-style: none;
+
+}
+.ChangePassBtn{
+	background-color: purple;
+	color:white;
+
+}
+.ChangePassBtn:hover{
+	background-color: gray;
+	color: white;
+}
+.headerTitle{
+	border-bottom-width: 5pt;
+	border-bottom-color: purple;
+}
+.modalBox{
+	width:250pt;
+	margin-top: 180pt;
+
+}
+.EmpPageDesign{
+	background-color: gray;
+	opacity: .8;
+	padding:5pt;
+	border-radius: 10pt;
+}
+.ChangeDPBtn{
+		background-color: purple;
+	color:white;
+	font-size: 11pt;
+	width: 64px;
+	height: 34px;
+	border: none;
+	border-radius: 3pt;
+}
+.ChangeDPBtn:hover{
+	background-color: gray;
+	color: white;
+}
